@@ -1,0 +1,142 @@
+/* -------------------reset styles-------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------------Base------------------------ */
+
+.wrapper {
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+/* ---------------------Header----------------------- */
+
+.header {
+    height: 250px;
+    padding-top: 100px;
+    /*background: sandybrown;*/
+}
+
+.title {
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #E72424;
+    border: none;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.main {
+    height: 345px;
+    /*background: rosybrown;*/
+}
+
+/* ---------------------Card----------------------- */
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    /*background: skyblue;*/
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#lamp {
+    background-image: url('../assets/lamp.png');
+}
+
+#keyboard {
+    background-image: url('../assets/keyboard.png');
+}
+
+#flash {
+    background-image: url('../assets/flash.png');
+}
+
+.card-title {
+    margin-bottom: 30px;
+}
+
+.card-text {
+    margin-bottom: 30px;
+}
+
+/* ---------------------Section---------------------- */
+
+.section {
+    height: 275px;
+    padding-top: 50px;
+    /*background: url(../assets/city_backdrop.png) rgba(0, 0, 0, 0.6);*/
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    background-image: url(../assets/city_backdrop.png);
+    background-clip: initial;
+    color: #FFFFFF;
+}
+
+.wer {
+    height: 275px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#line {
+    background: #FFFFFF;
+}
+
+.button {
+    width: 135px;
+    height: 42px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+/* ----------------------Footer---------------------- */
+
+.footer {
+    height: 71px;
+    padding-top: 30px;
+    color: #FFFFFF;
+    background-color: #000;
+}
+
+.social {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+}
